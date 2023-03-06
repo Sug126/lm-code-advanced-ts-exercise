@@ -1,4 +1,4 @@
-import { states } from "../states/states.mjs";
+import { states } from "../states/states.js";
 import { clear, print, printNewLine, prompt } from "../ui/console.mjs";
 
 export async function showMenu() {

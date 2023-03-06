@@ -1,5 +1,5 @@
 import { sendMessageToServer } from "../../../api/send_message_to_server.mjs";
-import { states } from "../../../states/states.mjs";
+import { states } from "../../../states/states.js";
 import { clear, print, printNewLine, prompt } from "../../../ui/console.mjs";
 
 export async function sendMessage() {
